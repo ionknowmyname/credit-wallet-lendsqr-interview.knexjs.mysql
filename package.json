@@ -10,7 +10,7 @@
     "dev": "nodemon src/server.ts",
     "test": "NODE_ENV=test jest --verbose",
     "build": "tsc -p .",
-    "deployment": "npm run start && npm run build"
+    "deployment": "npm install && npm run build"
   },
   "author": "Faithful Olaleru",
   "license": "ISC",
