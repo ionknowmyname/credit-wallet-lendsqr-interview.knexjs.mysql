@@ -16,7 +16,7 @@ Project can create a user who can create a wallet that can receive and send mone
 npm i
 ```
 
-- Run `npm run start` in terminal. Service starts on port 5002
+- Run `npm run dev` in terminal. Service starts on port 5002
 
 ---
 ## BUILD PROCESS
@@ -27,4 +27,5 @@ npm i
 
 ## EXTRAS
 
-![My Image](db_design.png)
+![My Image](./db_design.png)
+

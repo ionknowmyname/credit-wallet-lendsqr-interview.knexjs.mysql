@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node dist/server.ts",
+    "start": "ts-node dist/server.js",
     "knex-migrate": "npx knex migrate:make create_users_table",
     "knex-migrate-latest": "npx knex migrate:latest --knexfile knexfile.ts",
     "dev": "nodemon src/server.ts",
     "test": "NODE_ENV=test jest --verbose",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "deployment": "npm run start && npm run build"
   },
   "author": "Faithful Olaleru",
   "license": "ISC",
